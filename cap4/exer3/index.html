@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Contas do Mês</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="img">
+                <img src="img/imgAnimadaContaDoMes.avif" alt="imagem homem contando" class="imgConta">
+            </div>
+            <div class="text">
+                <h1>Programa Contas do Mês</h1>
+                <hr>
+
+                <label>Descrição da Conta: </label>
+                <input id="inDescriptionConta">
+                <br><br>
+                <label>Valor a Pagar R$ </label>
+                <input id="inValor">
+                <br><br>
+
+                <button id="btRegistrarConta" class="btn">Registrar Conta</button>
+
+                <pre id="outRelatorio"></pre>
+                <pre id="outTotalContas" class="total"></pre>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

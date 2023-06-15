@@ -1,0 +1,2 @@
+Cápitulo 4
+* Faltou fazer os exercícios exer3.c e exer4.d.
