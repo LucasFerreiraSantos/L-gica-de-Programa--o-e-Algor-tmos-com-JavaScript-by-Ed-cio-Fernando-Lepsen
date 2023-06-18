@@ -20,3 +20,14 @@ no vetor, o número do índice da primeira ocorrência desse conteúdo é
 retornado. Caso o conteúdo pesquisado não exista no vetor, o valor -1 é
 devolvido pelo método. Observe o exemplo a seguir, contendo um vetor
 com a idade de crianças, que ilustra o funcionamento desses métodos.
+
+sort() - JavaScript dispõe do método sort() para classicar os itens de um vetor
+em ordem alfabética crescente.
+
+reverse() - O método reverse(),
+como o nome sugere, inverte a ordem dos elementos de um vetor.
+
+slice() - Esse método – que signica fatia, pedaço ou
+porção em inglês – obtém um conjunto de elementos de um outro vetor.
+Sem parâmetros, ele obtém uma cópia com todos os elementos do vetor
+original.
