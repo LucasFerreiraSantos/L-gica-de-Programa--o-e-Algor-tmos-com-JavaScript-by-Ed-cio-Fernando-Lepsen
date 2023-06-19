@@ -1,6 +1,3 @@
-let divisores = 0
-let soma = 0
-
 function verificarNumeros() {
     let inNum = document.getElementById('inNum')
     let outDivisores = document.getElementById('outDivisores')
@@ -12,22 +9,20 @@ function verificarNumeros() {
             inNum.focus()
             break
         }
+
+    let somaDivisores = 0
     
-    for (var i = 1; i < num; i++) {
+    for (let i = 1; i < num; i++) {
         if (num % i === 0) {
-            divisores += 'Divisores do ' + num + ': ' + divisores
-            soma += i;
+            somaDivisores += 1
         }
     }
 
-    if (soma === numero) {
+    if (somaDivisores === num) {
         outResult.textContent = num + ' É um Número Perfeito.'
     } else {
         outResult.textContent = num + ' NÃO é um Número Perfeito.'
     }
-
-
-
 }
 
 const verificar = document.getElementById('btVerificar')
