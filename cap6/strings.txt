@@ -1,0 +1,16 @@
+charAt() - Esse método retorna o caractere de uma
+posição da palavra. Assim como nos vetores, a posição inicial da string é 0.
+
+toUpperCase() e toLowerCase() - Para converter para letras maiúsculas ou minúsculas os caracteres de uma
+palavra, a linguagem JavaScript dispõe dos métodos toUpperCase() e toLowerCase() que devem ser aplicados na palavra ou na letra que se deseja realizar a conversão.
+
+substr() - que contém dois parâmetros: posição inicial da string e número de caracteres a serem copiados. Caso apenas a posição inicial seja informada, todos os caracteres dessa posição até o nal da string são copiados.
+<script>
+var palavra = "saladas";
+var copia1 = palavra.substr(2); // obtém "ladas"
+var copia2 = palavra.substr(2, 4); // obtém "lada"
+var copia3 = palavra.substr(0, palavra.length-1); // obtém "salada"
+var copia4 = palavra.substr(-2); // obtém "as"
+</script>
+
+
